@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054743963647",
+    "project_id": "crudopp-fa350",
+    "storage_bucket": "crudopp-fa350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054743963647:android:41b9017d8ea31ba5a169ca",
+        "android_client_info": {
+          "package_name": "com.example.crud_operation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClBSWVW1WhRX2ZFPIpkA3FZshL2Nmfbys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
