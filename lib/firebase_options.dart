@@ -59,4 +59,5 @@ class DefaultFirebaseOptions {
     projectId: 'crudopp-fa350',
     storageBucket: 'crudopp-fa350.appspot.com',
   );
+
 }

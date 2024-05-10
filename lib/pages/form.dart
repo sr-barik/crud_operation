@@ -65,6 +65,7 @@ class _FormpageState extends State<Formpage> {
                           'Name': name.text,
                           'Age': age.text,
                           'Contact': contact.text,
+                          'id': id
                         };
                         await Database()
                             .sendDetails(detailsInfo, id)
@@ -77,6 +78,8 @@ class _FormpageState extends State<Formpage> {
                               backgroundColor: Colors.red,
                               textColor: Colors.white,
                               fontSize: 16.0);
+                        }).then((value) {
+                          Navigator.pop(context);
                         });
                       },
                       child: const Text('Upload')))
